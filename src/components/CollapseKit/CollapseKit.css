@@ -1,0 +1,75 @@
+.collapse-btn {
+    width: 20px;
+    height: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.collapse-btn span {
+    height: 2px;
+    width: 100%;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    transition: .3s;
+}
+
+.collapse-btn span:first-child {
+    top: 0;
+}
+
+.collapse-btn span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.collapse-btn span:last-child {
+    bottom: 0;
+}
+
+.navbar:has(.show) .collapse-btn span:first-child {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.navbar:has(.show) .collapse-btn span:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar:has(.show) .collapse-btn span:last-child {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+
+@media (min-width: 992px) {
+    .collapse-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .collapse {
+        display: none;
+        width: 100vw;
+        padding-top: 20px;
+    }
+
+    .collapse.show {
+        display: flex;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        translate: -50%;
+        background-color: var(--white);
+    }
+}
+@media (max-width: 767px) {
+    .collapse.show {
+        top: 80px;
+    }
+}
+@media (max-width: 357px) {
+    .collapse.show {
+        top: 50px;
+    }
+}

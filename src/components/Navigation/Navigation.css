@@ -1,0 +1,13 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+@media (max-width:991px) {
+    .navigation{
+        gap: 25px;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}

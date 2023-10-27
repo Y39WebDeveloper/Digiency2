@@ -1,0 +1,17 @@
+.nav-item a{
+    color: var(--text-black);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 123.6%;
+    transition: .3s;
+}
+.nav-item a:hover {
+    color: var(--primary-color);
+}
+@media (max-width:991px) {
+    .nav-item a {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 150.6%;
+    }
+}

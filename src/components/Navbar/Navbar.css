@@ -1,0 +1,35 @@
+.iop{
+    width: 100%;
+    background-color: var(--white);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    /* background-color: var(--white); */
+    position: relative;
+}
+svg{
+    width: 24px;
+    height: 24px;
+    color: var(--text-black);
+}
+@media (max-width: 991px) {
+    svg{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+    }
+}
+@media (max-width: 767px) {
+    .navbar{
+        height: 80px;
+    }
+}
+@media (max-width: 357px) {
+    .navbar{
+        height: 50px;
+    }
+}
