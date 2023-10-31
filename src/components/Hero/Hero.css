@@ -44,7 +44,13 @@
     .hero{
         flex-direction: column;
     }
+    .hero-content{
+        align-items: center !important;
+        text-align: center;
+        order: 2;
+    }
     .hero .hero-img{
+        order: 1;
         width: 307px;
         height: 207px;
     }

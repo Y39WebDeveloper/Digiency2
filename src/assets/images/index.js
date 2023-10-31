@@ -1,2 +1,3 @@
 import HeroImg from './hero-img.svg'
-export { HeroImg }
+import AboutImg from './about.svg'
+export { HeroImg, AboutImg }

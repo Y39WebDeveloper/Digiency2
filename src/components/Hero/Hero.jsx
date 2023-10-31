@@ -1,4 +1,5 @@
 import { HeroImg } from '../../assets/images'
+import { Button } from '../'
 import './Hero.css'
 
 export default function Hero() {
@@ -10,7 +11,7 @@ export default function Hero() {
             </h1>
             <p className='hero-content-parag'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
             </p>
-            <a href="/">Contact Us</a>
+            <Button>Contact Us</Button>
         </div>
         <div className="hero-img">
             <img src={HeroImg} alt="" />
