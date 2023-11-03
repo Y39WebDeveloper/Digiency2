@@ -1,0 +1,96 @@
+.exp {
+    padding: 60px 0;
+    background-color: var(--section-background);
+}
+
+.exp .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+.exp .row .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.exp .row .content .title p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150.6%;
+    color: var(--text-gray);
+    margin-bottom: 25px;
+}
+
+.exp .row .content .title h2 {
+    font-weight: 600;
+    line-height: 123.6%;
+    color: var(--text-black);
+    margin-bottom: 18px;
+}
+
+.exp .row .content .title h2 span {
+    color: var(--primary-color);
+}
+
+.exp .row .content .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.exp .row .content .text p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150.6%;
+    color: var(--text-gray);
+}
+.exp .row .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.exp .row .cards div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.exp .row .cards div:last-child{
+    transform: translateY(30px);
+    margin-top: -30px;
+}
+@media (max-width: 991px) {
+    .exp .row .cards,
+    .exp .row .cards div{
+        gap: 8px;
+    }
+}
+@media (max-width: 767px) {
+    .exp .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .exp .row .cards,
+    .exp .row .cards div{
+        gap: 8px;
+    }
+    .exp .row .cards div{
+        flex-direction: column;
+    }
+    .exp .row .cards div:last-child{
+        transform: translateY(0);
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .exp .row .content {
+        align-items: center;
+        text-align: center;
+    }
+}
