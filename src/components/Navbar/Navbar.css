@@ -1,13 +1,13 @@
 .iop{
     width: 100%;
     background-color: var(--white);
+    box-shadow: 0px 1px 10px 0px #0000001a;
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    /* background-color: var(--white); */
     position: relative;
 }
 svg{

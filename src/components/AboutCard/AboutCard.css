@@ -10,6 +10,9 @@
     justify-content: center;
     gap: 36px;
 }
+.dark .about-card{
+    background-color: #242526 !important;
+}
 .about-card .icon{
     position: relative;
     width: 70px;

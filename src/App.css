@@ -2,7 +2,7 @@
 :root{
   --primary-color: #FF5300;
   --section-background: #FFF7F4;
-  --section-background-dark: #242526;
+  --section-background-alt: #fff;
   --text-gray: #7B7B7B;
   --text-black: #373737;
   --black: #000;
@@ -26,6 +26,13 @@ body{
   font-size: 16px;
   font-weight: 500;
   font-family: 'Work Sans', sans-serif;
+}
+body.dark{
+  --white: #3a3b3c;
+  --text-black: #fff;
+  --section-background: #242526;
+  --text-gray: #fff;
+  --section-background-alt: #18191a;
 }
 h1{font-size: 3rem;}
 h2{font-size: 2.44rem;}

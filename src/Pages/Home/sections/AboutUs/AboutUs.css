@@ -1,5 +1,6 @@
 .about{
     padding: 120px 0;
+    background-color: var(--section-background-alt);
 }
 .about .row{
     display: flex;
