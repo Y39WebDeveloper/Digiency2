@@ -1,3 +1,13 @@
 import HeroImg from './hero-img.svg'
 import AboutImg from './about.svg'
-export { HeroImg, AboutImg }
+import Team1 from './team-1.jpg'
+import Team2 from './team-2.jpg'
+import Team3 from './team-3.png'
+import Team4 from './team-4.png'
+import Work1 from './work-1.png'
+import Work2 from './work-2.png'
+import Work3 from './work-3.jpg'
+import Work4 from './work-4.jpg'
+import Work5 from './work-5.jpg'
+import Work6 from './work-6.png'
+export { HeroImg, AboutImg, Team1, Team2, Team3, Team4, Work1, Work2, Work3, Work4, Work5, Work6 }

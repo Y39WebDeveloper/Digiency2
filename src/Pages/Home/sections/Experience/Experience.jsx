@@ -23,12 +23,12 @@ export default function Experience() {
                     </div>
                     <div className="cards">
                         <div>
-                            <ExpCard />
-                            <ExpCard />
+                            <ExpCard num={250} txt={'Global Customer'} />
+                            <ExpCard num={156} txt={'Project Completed'} />
                         </div>
                         <div>
-                            <ExpCard />
-                            <ExpCard />
+                            <ExpCard num={50} txt={'Team Member'} />
+                            <ExpCard num={15} txt={'Our Company'} />
                         </div>
                     </div>
                 </div>

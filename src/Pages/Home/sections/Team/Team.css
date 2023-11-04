@@ -1,0 +1,61 @@
+.team{
+    padding: 120px 0;
+    background-color: var(--section-background-alt);
+}
+.team .title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.team .title p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150.6%;
+    color: var(--text-gray);
+    margin-bottom: 25px;
+}
+.team .title h2{
+    font-weight: 600;
+    line-height: 123.6%;
+    color: var(--text-black);
+    margin-bottom: 18px;
+    text-align: center;
+}
+.team .title h2 span{
+    color: var(--primary-color);
+}
+.team .card-scroll{
+    width: 100%;
+    overflow-x: scroll;
+}
+.team .card-scroll::-webkit-scrollbar{
+    height: 5px;
+}
+.team .card-scroll::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.team .card-scroll::-webkit-scrollbar-thumb{
+    background-color: #0000004b;
+    border-radius: 50px;
+}
+.team .cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+@media (max-width: 991px) {
+    .team .cards{
+        gap: 24px;
+        width: max-content;
+    }
+}
+@media (max-width: 767px) {
+    .team .cards{
+        gap: 30px;
+        overflow-x: scroll;
+    }
+}

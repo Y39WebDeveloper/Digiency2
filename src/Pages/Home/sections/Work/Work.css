@@ -1,0 +1,223 @@
+.work{
+    padding-bottom: 120px;
+    background-color: var(--section-background-alt);
+}
+.work {
+    padding: 120px 0;
+    background-color: var(--section-background-alt);
+}
+
+.work .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.work .title p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150.6%;
+    color: var(--text-gray);
+    margin-bottom: 25px;
+}
+
+.work .title h2 {
+    font-weight: 600;
+    line-height: 123.6%;
+    color: var(--text-black);
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.work .title h2 span {
+    color: var(--primary-color);
+}
+.work .filter-scroll{
+    width: 100%;
+    overflow-x: scroll;
+}
+.work .filter-scroll::-webkit-scrollbar {
+    height: 3px;
+}
+
+.work .filter-scroll::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.work .filter-scroll::-webkit-scrollbar-thumb {
+    background-color: #00000011;
+    border-radius: 50px;
+}
+.work .filter{
+    display: flex;
+    gap: 43px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.work .filter li{
+    cursor: pointer;
+    color: var(--text-gray);
+    transition: .3s;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 123.6%;
+}
+.dark .filter li{color: var(--text-gray);}
+.work .filter li:hover,
+.work .filter li.active{
+    color: var(--primary-color);
+}
+.work .works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.work .works .widget{
+    position: relative;
+    width: 370px;
+    height: 370px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.work .works .widget .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background: #ff5300e6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 45px;
+    transition: .3s;
+    z-index: -3;
+}
+.work .works .widget:hover .overlay{
+    z-index: 3;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+.work .works .widget .overlay a svg{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.work .works .widget .overlay h4{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.work .works .widget .overlay p{
+    color: #fff;
+}
+.work .works .widget img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work .works .widget:nth-child(2n){
+    height: 470px;
+}
+.work .works .widget:nth-child(2n+4){
+    margin-top: -100px;
+}
+.work .works .widget:nth-child(3n){
+    margin-right: 0px;
+}
+@media (max-width: 1400px) {
+    .work .works .widget{
+        width: 300px;
+        height: 300px;
+    }
+    .work .works .widget:nth-child(2n){
+        height: 400px;
+    }
+}
+@media (max-width: 1400px) {
+    .work .works .widget{
+        width: 300px;
+        height: 300px;
+    }
+    .work .works .widget:nth-child(2n){
+        height: 400px;
+    }
+}
+@media (max-width: 1200px) {
+    .work .works .widget{
+        width: 250px;
+        height: 250px;
+    }
+    .work .works .widget:nth-child(2n){
+        height: 300px;
+    }
+    .work .works .widget:nth-child(2n+4){
+        margin-top: -50px;
+    }
+}
+@media (max-width: 870px) {
+    .work .works .widget{
+        width: 200px;
+        height: 200px;
+    }
+    .work .works .widget:nth-child(2n){
+        height: 250px;
+    }
+    .work .works .widget:nth-child(2n+4){
+        margin-top: -50px;
+    }
+}
+@media (max-width: 767px) {
+    .work .filter{
+        gap: 18px;
+    }
+    .work .works .widget{
+        width: 370px;
+        height: 370px;
+        margin-right: 0;
+    }
+    .work .works .widget:nth-child(2n){
+        height: 470px;
+    }
+    .work .works{
+        flex-direction: column;
+        align-items: center;
+    }
+    .work .works .widget:nth-child(2n+4){
+        margin-top: 0;
+    }
+}
+@media (max-width: 575px) {
+    .work .filter{
+        width: max-content;
+        margin-bottom: 50px;
+    }
+    .work .filter li{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .work .works .widget{
+        width: 343px;
+        height: 370px;
+        margin-right: 0;
+    }
+    .work .works .widget:nth-child(2n){
+        height: 470px;
+    }
+}
+@media (max-width: 375px) {
+    .work .works .widget{
+        width: 200px;
+        height: 200px;
+        margin-right: 0;
+    }
+    .work .works .widget:nth-child(2n){
+        height: 270px;
+    }
+}

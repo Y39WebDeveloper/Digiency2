@@ -1,10 +1,10 @@
 import './ExpCard.css'
 
-export default function ExpCard() {
+export default function ExpCard(props) {
   return (
     <div className='exp-card'>
-        <h1>250+</h1>
-        <h5>Global Customer</h5>
+        <h1>{props.num}+</h1>
+        <h5>{props.txt}</h5>
     </div>
   )
 }
