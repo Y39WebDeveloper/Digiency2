@@ -10,4 +10,6 @@ import Work3 from './work-3.jpg'
 import Work4 from './work-4.jpg'
 import Work5 from './work-5.jpg'
 import Work6 from './work-6.png'
-export { HeroImg, AboutImg, Team1, Team2, Team3, Team4, Work1, Work2, Work3, Work4, Work5, Work6 }
+import Feed1 from './feed-1.jpg'
+import Feed2 from './feed-2.jpg'
+export { HeroImg, AboutImg, Team1, Team2, Team3, Team4, Work1, Work2, Work3, Work4, Work5, Work6, Feed1, Feed2 }

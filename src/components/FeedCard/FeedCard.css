@@ -1,0 +1,65 @@
+.feed-card{
+    width: 470px;
+    height: 250px;
+    background-color: var(--primary-color);
+    color: #fff;
+    box-shadow: 0px 1px 10px 0px #0000001a;
+    padding: 34px 35px 25px 65px;
+    position: relative;
+}
+.feed-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: -40px;
+}
+.feed-card .card-title{
+    margin-bottom: 23px;
+}
+.feed-card .card-title h4{
+    margin-bottom: 1px;
+    font-weight: 500;
+    line-height: 123.6%;
+}
+.feed-card .card-title p{
+    font-weight: 400;
+    line-height: 150.6%;
+}
+.feed-card .text{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150.6%;
+}
+@media (max-width: 767px) {
+    .feed-card{
+        width: 370px;
+        padding: 17px 16px 12px 37px;
+    }
+    .feed-card img{
+        width: 60px;
+        height: 60px;
+        left: -30px;
+        top: 15px;
+    }
+}
+@media (max-width: 575px) {
+    .feed-card{
+        width: 266px;
+        height: 177px;
+        padding: 26px 12px 18px 35px;
+    }
+    .feed-card .card-title{
+        margin-bottom: 12px;
+    }
+    .feed-card .card-title h4{
+        font-size: 1rem;
+    }
+    .feed-card img{
+        width: 40px;
+        height: 40px;
+        left: -20px;
+        top: 25px;
+    }
+}

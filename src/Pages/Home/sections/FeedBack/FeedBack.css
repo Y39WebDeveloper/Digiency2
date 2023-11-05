@@ -1,0 +1,41 @@
+.feedback{
+    padding: 60px 0;
+    background-color: var(--section-background);
+}
+.feedback .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.feedback .title p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150.6%;
+    color: var(--text-gray);
+    margin-bottom: 25px;
+}
+
+.feedback .title h2 {
+    font-weight: 600;
+    line-height: 123.6%;
+    color: var(--text-black);
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.feedback .title h2 span {
+    color: var(--primary-color);
+}
+.feedback .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+@media (max-width:991px) {
+    .feedback .cards{
+        flex-direction: column;
+    }
+}

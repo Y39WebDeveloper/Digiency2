@@ -1,4 +1,4 @@
-import { AboutUs, Experience, Header, Team, Work } from "./sections"
+import { AboutUs, Experience, FeedBack, Header, Team, Work } from "./sections"
 export default function Home() {
   return (
     <>
@@ -7,6 +7,7 @@ export default function Home() {
        <Experience />
        <Team />
        <Work />
+       <FeedBack />
     </>
   )
 }
