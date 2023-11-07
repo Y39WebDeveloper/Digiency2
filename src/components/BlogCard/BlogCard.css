@@ -1,0 +1,103 @@
+.card-blog{
+    width: 570px;
+    height: 294px;
+    background-color: #fff;
+    padding: 25px;
+    box-shadow: 0px 1px 10px 0px #0000001a;
+}
+.dark .card-blog{
+    background-color: #242526;
+}
+.card-blog .card-content{
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card-blog .card-content .text{
+    margin-bottom: 15px;
+}
+.card-blog .card-content .text p{
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150.6%;
+    margin-bottom: 18px;
+}
+.card-blog .card-content .text h4{
+    color: var(--text-black);
+    font-weight: 500;
+    line-height: 123.6%;
+}
+.card-blog .card-content img{
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+}
+.card-blog .card-profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card-blog .card-profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.card-blog .card-profile .info h5{
+    color: var(--text-black);
+    font-weight: 500;
+    line-height: 123.6%;
+    margin-bottom: 6px;
+}
+.card-blog .card-profile .info p{
+    color: var(--text-gray);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150.6%;
+    text-transform: capitalize;
+}
+@media (max-width: 991px) {
+    .card-blog{
+        width: 332px;
+        height: 260px;
+        padding: 18px;
+    }
+    .card-blog .card-content{
+        gap: 1px;
+    }
+    .card-blog .card-content .text h4{
+        font-size: 1.25rem;
+    }
+    .card-blog .card-content img{
+        width: 80px;
+        height: 80px;
+    }
+    .card-blog .card-profile img{
+        width: 60px;
+        height: 60px;
+    }
+    .card-blog .card-profile .info p{
+        font-size: .8rem;
+        line-height: 123.6%;
+    }
+}
+@media (max-width: 375px){
+    .card-blog{
+        width: 296px;
+        height: 220px;
+    }
+    .card-blog .card-content .text p{
+        font-size: .8rem;
+        margin-bottom: 6px;
+    }
+    .card-blog .card-content .text h4{
+        font-size: 1rem;
+        line-height: 150.6%;
+    }
+    .card-blog .card-profile img{
+        width: 40px;
+        height: 40px;
+    }
+}

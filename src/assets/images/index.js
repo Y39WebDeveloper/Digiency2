@@ -12,4 +12,8 @@ import Work5 from './work-5.jpg'
 import Work6 from './work-6.png'
 import Feed1 from './feed-1.jpg'
 import Feed2 from './feed-2.jpg'
-export { HeroImg, AboutImg, Team1, Team2, Team3, Team4, Work1, Work2, Work3, Work4, Work5, Work6, Feed1, Feed2 }
+import Blog1 from './blog1.jpg'
+import Blog2 from './blog2.jpg'
+import ContactImg from './contact.svg'
+import Map from './map.png'
+export { HeroImg, AboutImg, Team1, Team2, Team3, Team4, Work1, Work2, Work3, Work4, Work5, Work6, Feed1, Feed2, Blog1, Blog2, ContactImg, Map }

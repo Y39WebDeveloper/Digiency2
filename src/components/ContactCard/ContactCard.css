@@ -1,0 +1,53 @@
+.contact-card{
+    background-color: #fff;
+    padding: 19px 18px 24px;
+    box-shadow: 0px 1px 10px 0px #0000001a;
+}
+.dark .contact-card{
+    background-color: #242526;
+}
+.contact-card .card-head{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+    margin-bottom: 38px;
+}
+.contact-card .card-head .icon{
+    width: 75px;
+    height: 75px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    filter: drop-shadow(4px 5px 15px #ff530066);
+}
+.contact-card .card-head .icon svg{
+    width: 36px;
+    height: 36px;
+    color: #fff;
+}
+.contact-card .card-head .card-title h4{
+    color: var(--primary-color);
+    margin-bottom: 11px;
+    font-weight: 500;
+    line-height: 123.6%;
+}
+.contact-card .card-head .card-title h3{
+    color: var(--text-black);
+    font-weight: 600;
+    line-height: 123.6%;
+}
+.contact-card .card-body{
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    flex-direction: column;
+}
+.contact-card .card-body h5{
+    color: var(--text-gray);
+    font-weight: 500;
+    line-height: 123.6%;
+    width: 70%;
+}
