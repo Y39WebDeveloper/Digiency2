@@ -2,6 +2,7 @@ import './App.css'
 import { Home } from './Pages'
 import React from 'react'
 import { useState, createContext } from 'react'
+import ScrollTop from './components/ScrollTop/ScrollTop'
 
 export const DarkContext = createContext(null)
 
@@ -12,6 +13,7 @@ const App = () => {
     <DarkContext.Provider value={darkValues}>
       <>
         <Home />
+        <ScrollTop/>
       </>
     </DarkContext.Provider>
   )

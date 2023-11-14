@@ -1,0 +1,29 @@
+.scroll-top {
+    position: fixed;
+    display: none;
+    bottom: 50px;
+    right: 5%;
+    width: 58px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 50%;
+    opacity: .3;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.scroll-top:hover {
+    opacity: 1;
+}
+
+.scroll-top.show {
+    display: flex;
+}
+
+.scroll-top img {
+    width: 32px;
+    height: 32px;
+}

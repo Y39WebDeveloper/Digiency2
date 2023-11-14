@@ -28,6 +28,10 @@
     line-height: 150.6%;
 }
 .feed-card .text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
     font-size: 1rem;
     font-weight: 400;
     line-height: 150.6%;

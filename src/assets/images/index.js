@@ -16,4 +16,8 @@ import Blog1 from './blog1.jpg'
 import Blog2 from './blog2.jpg'
 import ContactImg from './contact.svg'
 import Map from './map.png'
-export { HeroImg, AboutImg, Team1, Team2, Team3, Team4, Work1, Work2, Work3, Work4, Work5, Work6, Feed1, Feed2, Blog1, Blog2, ContactImg, Map }
+import BrandImg1 from './brand1.svg'
+import BrandImg2 from './brand2.svg'
+import BrandImg3 from './brand3.svg'
+import BrandImg4 from './brand4.svg'
+export { HeroImg, AboutImg, Team1, Team2, Team3, Team4, Work1, Work2, Work3, Work4, Work5, Work6, Feed1, Feed2, Blog1, Blog2, ContactImg, Map, BrandImg1, BrandImg2, BrandImg3, BrandImg4 }

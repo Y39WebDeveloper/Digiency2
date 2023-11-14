@@ -1,4 +1,4 @@
-import { AboutUs, Contact, Experience, FeedBack, Header, OurBlog, Team, Work } from "./sections"
+import { AboutUs, Contact, Experience, FeedBack, Footer, Header, OurBlog, Team, Work } from "./sections"
 export default function Home() {
   return (
     <>
@@ -10,6 +10,7 @@ export default function Home() {
       <FeedBack />
       <OurBlog />
       <Contact />
+      <Footer />
     </>
   )
 }
